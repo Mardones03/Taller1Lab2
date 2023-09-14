@@ -1,0 +1,19 @@
+Clases: 
+-Club
+-Deporte
+-Futbol(Hija de Deporte)
+-Basquetbol(Hija de Deporte)
+-Tenis(Hija de Deporte)
+-Equipo
+-Partido
+-Persona
+-Deportista(Hija de Persona)
+-Entrenador(Hija de Persona)
+
+Funcionalidades:
+-Registrar deportistas y entrenadores en el sistema, sin que estos existan
+-Crear equipos y asignar jugadores y entrenadores
+-Registrar partidos jugados con todos sus detalles (no se logro)
+-Consultar estadisticas de jugadores y equipos (no se logro)
+
+
