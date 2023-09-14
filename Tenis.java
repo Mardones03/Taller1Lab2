@@ -2,12 +2,14 @@ public class Tenis extends Deporte {
 	private String tipoSuperficie;
 	private String individualDobles;
 
-	public Tenis(String nombre, String descripcion) {
-		super(nombre, descripcion);
+	public Tenis() {
+		super(nombre);
+		this.tipoSuperficie = tipoSuperficie;
+		this.individualDobles = individualDobles;
 	}
 
 	public String getTipoSuperficie() {
-		return this.tipoSuperficie;
+		return tipoSuperficie;
 	}
 
 	public void setTipoSuperficie(String tipoSuperficie) {
@@ -15,7 +17,7 @@ public class Tenis extends Deporte {
 	}
 
 	public String getIndividualDobles() {
-		return this.individualDobles;
+		return individualDobles;
 	}
 
 	public void setIndividualDobles(String individualDobles) {

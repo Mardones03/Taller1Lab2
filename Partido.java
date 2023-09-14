@@ -1,12 +1,12 @@
-import java.util.Vector;
+import java.util.Date;
 
 public class Partido {
 	private String equipoOponente;
 	private String resultado;
-	private String fecha;
+	private Date fecha;
 	private String lugar;
 
-	public Partido(String equipoOponente, String resultado, String fecha, String lugar) {
+	public Partido(String equipoOponente, String resultado, Date fecha, String lugar) {
 		this.equipoOponente = equipoOponente;
 		this.resultado = resultado;
 		this.fecha = fecha;
@@ -21,7 +21,7 @@ public class Partido {
 		return resultado;
 	}
 
-	public String getFecha() {
+	public Date getFecha() {
 		return fecha;
 	}
 

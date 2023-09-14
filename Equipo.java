@@ -27,4 +27,12 @@ public class Equipo {
 	public void removerPartido(Partido partido) {
 		historialPartidos.remove(partido);
 	}
+
+	public void setEntrenador(Entrenador entrenador) {
+		this.entrenador = entrenador;
+	}
+
+	public void setJugadores(List<Deportista> jugadores) {
+		this.jugadores = jugadores;
+	}
 }

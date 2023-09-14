@@ -2,8 +2,8 @@ public class Basquetbol extends Deporte {
 	private String tipoCancha;
 	private int nroTiempos;
 
-	public Basquetbol(String nombre, String descripcion) {
-		super(nombre, descripcion);
+	public Basquetbol(String nombre) {
+		super();
 	}
 
 	public String getTipoCancha() {

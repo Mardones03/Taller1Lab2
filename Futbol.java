@@ -2,12 +2,14 @@ public class Futbol extends Deporte {
 	private String tipoCampo;
 	private String localVisita;
 
-	public Futbol(String nombre, String descripcion) {
-		super(nombre, descripcion);
+	public Futbol() {
+		super(nombre);
+		this.tipoCampo = tipoCampo;
+		this.localVisita = localVisita;
 	}
 
 	public String getTipoCampo() {
-		return this.tipoCampo;
+		return tipoCampo;
 	}
 
 	public void setTipoCampo(String tipoCampo) {
@@ -15,7 +17,7 @@ public class Futbol extends Deporte {
 	}
 
 	public String getLocalVisita() {
-		return this.localVisita;
+		return localVisita;
 	}
 
 	public void setLocalVisita(String localVisita) {
